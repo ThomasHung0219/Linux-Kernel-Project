@@ -34,6 +34,8 @@ Linux Kernel Version:[3.10.104](https://mirrors.edge.kernel.org/pub/linux/kernel
    $ sudo reboot
    ```
    c. 重啟後選擇編譯的 kernel 版本
+   ![](/fig/grub1.png)
+   ![](/fig/grub2.png)
 
 ## Project
 ### Project1
