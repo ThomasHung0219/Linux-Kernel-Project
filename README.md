@@ -46,3 +46,4 @@ Linux Kernel Version:[3.10.104](https://mirrors.edge.kernel.org/pub/linux/kernel
 ## 參考資料
 >https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/
 
+>https://hackmd.io/@WeiHeng/BknsDcCBK
