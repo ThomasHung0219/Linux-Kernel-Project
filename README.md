@@ -22,9 +22,9 @@ Linux Kernel Version:[3.10.104](https://mirrors.edge.kernel.org/pub/linux/kernel
 4. grub
    a. 設定 grub 選單。
    ```
-   $ sudo vim /etc/default/grubGRUB_TIMEOUT=0
+   $ sudo vim /etc/default/grub
    更改以下設定
-   GRUB_TIMEOUT=-1
+   GRUB_TIMEOUT=0 -> GRUB_TIMEOUT=-1
    GRUB_TIMEOUT_STYLE=menu
    ```
    b. 更新 grub 選單，並重啟。
