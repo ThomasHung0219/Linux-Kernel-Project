@@ -1,5 +1,5 @@
 # Linux-Kernel-Project
-中央大學 許富皓教授 Linux作業系統專題
+Linux作業系統專題
 ---------------------------------------
 ## Environment
 OS:[Ubuntu 16.04](https://releases.ubuntu.com/16.04/?_ga=2.247640007.1301183573.1726571101-1581265748.1726571101)
