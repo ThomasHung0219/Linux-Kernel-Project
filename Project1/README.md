@@ -145,12 +145,11 @@ int main()
 {
     struct data_segment my_data_segment;
     
-    // no.448的System call
-    int a = syscall(314, getpid(), (void*)&my_data_segment);
-    printf("system call return %d\n",a);
+    int val = syscall(314, getpid(), (void*)&my_data_segment); // 我們新增的 System call 為 no.314
+    printf("system call return %d\n", val);
     printf("Start: %lx\nEnd: %lx\n", my_data_segment.start_code, my_data_segment.end_code);
-    int b;
-    scanf("%d",&b);    // 卡住程式
+    int tmp;
+    scanf("%d",&tmp);    // 卡住程式
     return 0;
 }
 ```
